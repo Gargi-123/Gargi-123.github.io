@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 
+        <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
 </head>
 
 
@@ -583,6 +586,32 @@
                         </ul>
                     </div> -->
 
+                    <div class="col-lg-12 col-md-12 col-sm-12 p-0 mt-5" id="github_bar">
+                        <div class="card border-0 mt-5 px-4 offset-2">
+                            <div class="shadow-none bg-light rounded col-lg-9 col-md-12 col-sm-12 ml-3 mb-5">
+                                <div class="calendar">
+                                    Here is Git Status!!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  
+
+                </div>
+                <!-- <script type="text/javascript">
+                    GitHubCalendar(".calendar", "Gargi-123",
+                        {
+                            responsive: true
+                        });
+                </script> -->
+                <div class="m-5 p-3">
+                    <h4 class="" style="color: #707070;"><a href="https://github.com/Gargi-123"
+                        target="_blank">@Gargi-123 on GitHub</a>
+                    </h4>
+                    <div class="calendar">
+                        <!-- Loading stuff -->
+                        Loading the data just for you.
+                    </div>
                 </div>
 
 
@@ -655,7 +684,9 @@
 
 
 
-
+    <script>
+        GitHubCalendar(".calendar", "Gargi-123", { responsive: true });
+    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
