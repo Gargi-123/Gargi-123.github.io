@@ -649,6 +649,23 @@ input[type="button"],
 
 /* media */
 
+
+.rings-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.rings{
+  border: 15px solid #68b0ab;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  margin-top: 15px;
+  text-align: center;
+  
+}
+
 /* Large screen*/
 
 @media screen and (max-width: 1280px) {
